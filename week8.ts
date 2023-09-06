@@ -112,11 +112,83 @@ var msg10 = "My Favourite Number is = ";
 console.log(msg10+n10)
 
 
-// console.log("Question-11 ================================================================");
+console.log("Question-11 ================================================================");
+// Names: Store the names of a few of your friends in a array called names. 
+// Print each person’s name by accessing each element in the list, one at a time.
+
+var names = ["Ali","Bilal", "Danish","Ejaz","Farooq"];
+
+console.log(names[0])
+console.log(names[1])
+console.log(names[2])
+console.log(names[3])
+console.log(names[4])
 
 
-// console.log("Question-12 ================================================================");
+console.log("Question-12 ================================================================");
+// Greetings: Start with the array you used in Exercise 11, but instead of just printing each person’s name, print a message to them. 
+// The text of each message should be the same, but each message should be personalized with the person’s name.
 
+console.log("It is very Glad to Meet you Mr.",names[0])
+console.log("It is very Glad to Meet you Mr.",names[1])
+console.log("It is very Glad to Meet you Mr.",names[2])
+console.log("It is very Glad to Meet you Mr.",names[3])
+console.log("It is very Glad to Meet you Mr.",names[4])
+
+console.log("Question-13 ================================================================");
+// Your Own Array: Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores several examples. 
+// Use your list to print a series of statements about these items, such as “I would like to own a Honda motorcycle.”
+
+// var Transport = ["DAIWOO","Bilal TRAVELS", "FAISAL MOVERS","SADAT TRAVELS","WARAICH EXPRESS"];
+
+var ModeOfTransport = ["BIKE","TAXI","CAR", "BUS","TRAIN"];
+
+console.log(ModeOfTransport[0], "is best single ride Tranport in rush")
+console.log(ModeOfTransport[1], "is best Tranport for inter City Travel")
+console.log(ModeOfTransport[2], "is a Family Ride")
+console.log(ModeOfTransport[3], "is a best Transport to travel between cities")
+console.log(ModeOfTransport[4], "is a also a best Transport to travel between cities")
+
+
+
+
+console.log("Question-14 ================================================================");
+// Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite? 
+// Make a list that includes at least three people you’d like to invite to dinner. 
+// Then use your list to print a message to each person, inviting them to dinner.
+
+var Guest = ["Ali","Bilal", "Danish","Ejaz","Farooq"];
+var invitation:string = " Please Come to Dinner";  
+
+console.log(Guest[0] + invitation);
+console.log(Guest[1] + invitation);
+console.log(Guest[2] + invitation);
+console.log(Guest[3] + invitation);
+console.log(Guest[4] + invitation);
+
+console.log("Question-15 ================================================================");
+// Changing Guest List: You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. 
+// You’ll have to think of someone else to invite.
+
+var Guest1 =  Guest.splice(Guest.length-1, 1);
+console.log("New List After delete Farooq = ", Guest);
+
+var Guest2 = Guest.splice(4, 1, "Hassan");
+console.log("New List after invite/Add New Person Hassan in List = ", Guest);
+
+// console.log("Question-16 ================================================================");
+
+
+// console.log("Question-17 ================================================================");
+
+
+// console.log("Question-18 ================================================================");
+
+
+// console.log("Question-19 ================================================================");
+
+
+// console.log("Question-20 ================================================================");
 
 
 
