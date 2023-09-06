@@ -49,12 +49,33 @@ console.log(famous_person, " said, ", message);
 
 
 console.log("Question-6 ================================================================");
-// Stripping Names: Store a person’s name, and include some whitespace characters at the beginning and end of the name. Make sure you use each character combination, "\t" and "\n", at least once. Print the name once, so the whitespace around the name is displayed. Then print the name after striping the white spaces.
+// Stripping Names: Store a person’s name, and include some whitespace characters at the beginning and end of the name. 
+// Make sure you use each character combination, "\t" and "\n", at least once. 
+// Print the name once, so the whitespace around the name is displayed. Then print the name after striping the white spaces.
+
+let name6:string = "Hassan";
+
+console.log("Unmodified name =", name6);
+
+console.log("Using slash t \t", name6);
+console.log("Using slash n \n", name6);
+
+
+// console.log("Using lstrip():", name6);
+
+// console.log("\nUsing rstrip():", name6.rstrip());
+
+// console.log("\nUsing strip():", name6.strip());
 
 
 console.log("Question-7 ================================================================");
-// Number Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8. Be sure to enclose your operations in print statements to see the results.
+// Number Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8. 
+// Be sure to enclose your operations in print statements to see the results.
 
+console.log("8 Result after Addition of Two Numbers 5+3 = ", 5+3)
+console.log("8 Result after Subtraction of Two Numbers 10-2 = ", 10-2)
+console.log("8 Result after Multiplication of Two Numbers 4*2 = ", 4*2)
+console.log("8 Result after Division of Two Numbers 16/2= ", 16/2)
 
 
 console.log("Question-8 ================================================================");
@@ -62,23 +83,39 @@ console.log("Question-8 ========================================================
 // console.log(5 + 3)
 // Your output should simply be four lines with the number 8 appearing once on each line.
 
+console.log("Four Lines which Output shoud be 8")
 
-
+console.log(5 + 3)
+console.log(10 - 2)
+console.log(4 * 2)
+console.log(16 / 2)
 
 console.log("Question-9 ================================================================");
-// Favorite Number: Store your favorite number in a variable. Then, using that variable, create a message that reveals your favorite number. Print that message.
+// Favorite Number: Store your favorite number in a variable. 
+// Then, using that variable, create a message that reveals your favorite number. Print that message.
 
+var n9 = 12;
+var msg9 = "my Favorite Number is = ";
 
+console.log(msg9+n9)
 
 console.log("Question-10 ================================================================");
-// Adding Comments: Choose two of the programs you’ve written, and add at least one comment to each. If you don’t have anything specific to write because your programs are too simple at this point, just add your name and the current date at the top of each program file. Then write one sentence describing what the program does.
+// Adding Comments: Choose two of the programs you’ve written, and add at least one comment to each. 
+// If you don’t have anything specific to write because your programs are too simple at this point, 
+// just add your name and the current date at the top of each program file. Then write one sentence describing what the program does.
+
+// comment = 12 is my favourite number  stored in vaiable n10
+var n10 = 12;
+// comment = msg10 is a  variable for store  message
+var msg10 = "My Favourite Number is = ";
+
+console.log(msg10+n10)
 
 
+// console.log("Question-11 ================================================================");
 
-console.log("Question-11 ================================================================");
 
-
-console.log("Question-12 ================================================================");
+// console.log("Question-12 ================================================================");
 
 
 
