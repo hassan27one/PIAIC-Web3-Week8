@@ -59,13 +59,13 @@ console.log(5 + 3);
 console.log(10 - 2);
 console.log(4 * 2);
 console.log(16 / 2);
-console.log("Question-9 ================================================================");
+console.log("Question-9 ================================================================ \n");
 // Favorite Number: Store your favorite number in a variable. 
 // Then, using that variable, create a message that reveals your favorite number. Print that message.
 var n9 = 12;
 var msg9 = "my Favorite Number is = ";
 console.log(msg9 + n9);
-console.log("Question-10 ================================================================");
+console.log("Question-10 ================================================================ \n");
 // Adding Comments: Choose two of the programs you’ve written, and add at least one comment to each. 
 // If you don’t have anything specific to write because your programs are too simple at this point, 
 // just add your name and the current date at the top of each program file. Then write one sentence describing what the program does.
@@ -74,7 +74,7 @@ var n10 = 12;
 // comment = msg10 is a  variable for store  message
 var msg10 = "My Favourite Number is = ";
 console.log(msg10 + n10);
-console.log("Question-11 ================================================================");
+console.log("Question-11 ================================================================ \n");
 // Names: Store the names of a few of your friends in a array called names. 
 // Print each person’s name by accessing each element in the list, one at a time.
 var names = ["Ali", "Bilal", "Danish", "Ejaz", "Farooq"];
@@ -83,7 +83,7 @@ console.log(names[1]);
 console.log(names[2]);
 console.log(names[3]);
 console.log(names[4]);
-console.log("Question-12 ================================================================");
+console.log("Question-12 ================================================================ \n");
 // Greetings: Start with the array you used in Exercise 11, but instead of just printing each person’s name, print a message to them. 
 // The text of each message should be the same, but each message should be personalized with the person’s name.
 console.log("It is very Glad to Meet you Mr.", names[0]);
@@ -91,7 +91,7 @@ console.log("It is very Glad to Meet you Mr.", names[1]);
 console.log("It is very Glad to Meet you Mr.", names[2]);
 console.log("It is very Glad to Meet you Mr.", names[3]);
 console.log("It is very Glad to Meet you Mr.", names[4]);
-console.log("Question-13 ================================================================");
+console.log("Question-13 ================================================================ \n");
 // Your Own Array: Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores several examples. 
 // Use your list to print a series of statements about these items, such as “I would like to own a Honda motorcycle.”
 // var Transport = ["DAIWOO","Bilal TRAVELS", "FAISAL MOVERS","SADAT TRAVELS","WARAICH EXPRESS"];
@@ -101,7 +101,7 @@ console.log(ModeOfTransport[1], "is best Tranport for inter City Travel");
 console.log(ModeOfTransport[2], "is a Family Ride");
 console.log(ModeOfTransport[3], "is a best Transport to travel between cities");
 console.log(ModeOfTransport[4], "is a also a best Transport to travel between cities");
-console.log("Question-14 ================================================================");
+console.log("Question-14 ================================================================ \n");
 // Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite? 
 // Make a list that includes at least three people you’d like to invite to dinner. 
 // Then use your list to print a message to each person, inviting them to dinner.
@@ -112,7 +112,7 @@ console.log(Guest[1] + invitation);
 console.log(Guest[2] + invitation);
 console.log(Guest[3] + invitation);
 console.log(Guest[4] + invitation);
-console.log("Question-15 ================================================================");
+console.log("Question-15 ================================================================ \n");
 // Changing Guest List: You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. 
 // You’ll have to think of someone else to invite.
 // Start with your program from Exercise 14. Add a print statement at the end of your program stating the name of the guest who can’t make it.
@@ -121,16 +121,16 @@ console.log("Question-15 =======================================================
 var Guest = ["Ali", "Bilal", "Danish", "Ejaz", "Farooq"];
 var invitation = " Please Come to Dinner";
 var Guest1 = Guest.splice(Guest.length - 1, 1);
-console.log("name of the guest who can’t make it is = ", Guest1);
+console.log("name of the guest who can’t make it is = ", Guest1 + "\n");
 // console.log("New List After delete Farooq = ", Guest);
 var Guest2 = Guest.splice(4, 1, "Hassan");
-console.log("Modified List after invite/Add New Person Hassan in List = ", Guest);
-console.log(Guest[0] + invitation);
-console.log(Guest[1] + invitation);
-console.log(Guest[2] + invitation);
-console.log(Guest[3] + invitation);
-console.log(Guest[4] + invitation);
-console.log("Question-16 ================================================================");
+console.log("Modified List after invite/Add New Person Hassan in List = ", Guest + "\n");
+console.log(Guest[0] + invitation + "\n");
+console.log(Guest[1] + invitation + "\n");
+console.log(Guest[2] + invitation + "\n");
+console.log(Guest[3] + invitation + "\n");
+console.log(Guest[4] + invitation + "\n");
+console.log("Question-16 ================================================================ \n");
 // More Guests: You just found a bigger dinner table, so now more space is available. Think of three more guests to invite to dinner.
 // Start with your program from Exercise 15. Add a print statement to the end of your program informing people that you found a bigger dinner table.
 // Add one new guest to the beginning of your array.
@@ -149,9 +149,9 @@ console.log("Use append() to add one new guest(End-Guest) to the end of your lis
 for (let i = 0; i < Guest.length; i++) {
     console.log("Mr. ", Guest[i] + BigTableMsg);
 }
-console.log("Question-17 ================================================================");
+console.log("Question-17 ================================================================ \n");
 console.log("Pending");
-console.log("Question-18 ================================================================");
+console.log("Question-18 ================================================================ \n");
 // Seeing the World: Think of at least five places in the world you’d like to visit.
 // Store the locations in a array. Make sure the array is not in alphabetical order.
 // Print your array in its original order.
@@ -187,5 +187,57 @@ console.log("Question-19 =======================================================
 let Len = Guest.length;
 console.log("we have invited " + Len + " numbers of People \n");
 console.log("Question-20 ================================================================ \n");
+// Think of something you could store in a array. For example, you could make a list of mountains, rivers, countries, cities, languages, or anything else you’d like. 
+// Write a program that creates a list containing these items.
+var Cars = ["BMW", "TESLA", "TOYOTA", "HONDA", "SUZUKI"];
+console.log("List of Array = " + Cars);
+console.log("Question-21 ================================================================ \n");
+// They think of something you could store in a TypeScript Object. 
+// Write a program that creates Objects containing these items.
+// var Cars = ["BMW", "TESLA", "TOYOTA", "HONDA","SUZUKI" ];
+// console.log("Object of Car(Array) = " + Cars);
+// type CarType= {Model:string, Brand:string, Year:number, color:string};
+let Car = {
+    "BMW": { Model: "city VXi",
+        Brand: "Honda",
+        Year: 2013,
+        color: "white",
+    },
+    "TESLA": { Model: "Vids",
+        Brand: "Suzuki",
+        Year: 2018,
+        color: "Black"
+    },
+    "TOYOTA": { Model: "Vids",
+        Brand: "Suzuki",
+        Year: 2018,
+        color: "Black"
+    },
+    "HONDA": { Model: "Vids",
+        Brand: "Suzuki",
+        Year: 2018,
+        color: "Black"
+    },
+    "SUZUKI": { Model: "Vids",
+        Brand: "Suzuki",
+        Year: 2018,
+        color: "Black"
+    }
+};
+// print all Objects 
+console.log(Car);
+// object 1 
+// console.log(Car["BMW"]);
+// object 1 + property Year
+// console.log(Car["BMW"].Year);
+console.log("Question-23 ================================================================ \n");
+// Conditional Tests: Write a series of conditional tests. 
+// Print a statement describing each test and your prediction for the results of each test. Your code should look something like this:
+// let car = 'subaru';
+// console.log("Is car == 'subaru'? I predict True.")
+// console.log(car == 'subaru')
+// Look closely at your results, and make sure you understand why each line evaluates to True or False.
+// Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
+console.log("Question-24 ================================================================ \n");
 // Question-3 ==========================================================================
 // Question-3 ==========================================================================

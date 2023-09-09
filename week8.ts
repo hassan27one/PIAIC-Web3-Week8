@@ -276,8 +276,129 @@ console.log("Question-19 =======================================================
 let Len = Guest.length;
 console.log("we have invited "+ Len + " numbers of People \n");
 
-
 console.log("Question-20 ================================================================ \n");
+// Think of something you could store in a array. For example, you could make a list of mountains, rivers, countries, cities, languages, or anything else you’d like. 
+// Write a program that creates a list containing these items.
+
+var Cars = ["BMW", "TESLA", "TOYOTA", "HONDA","SUZUKI" ];
+
+console.log("List of Array = " + Cars);
+
+console.log("Question-21 ================================================================ \n");
+// They think of something you could store in a TypeScript Object. 
+// Write a program that creates Objects containing these items.
+
+// var Cars = ["BMW", "TESLA", "TOYOTA", "HONDA","SUZUKI" ];
+// console.log("Object of Car(Array) = " + Cars);
+
+
+// type CarType= {Model:string, Brand:string, Year:number, color:string};
+
+let Car =
+        { 
+            "BMW": {Model:"city VXi",
+            Brand:"Honda",
+            Year:2013,
+            color:"white",
+            },
+            "TESLA":{Model:"Vids",
+            Brand:"Suzuki",
+            Year:2018,
+            color:"Black"
+            },
+            "TOYOTA":{Model:"Vids",
+            Brand:"Suzuki",
+            Year:2018,
+            color:"Black"
+            },
+            "HONDA":{Model:"Vids",
+            Brand:"Suzuki",
+            Year:2018,
+            color:"Black"
+            },
+            "SUZUKI":{Model:"Vids",
+            Brand:"Suzuki",
+            Year:2018,
+            color:"Black"
+            }
+        }
+        
+// print all Objects 
+console.log(Car);
+
+// object 1 
+// console.log(Car["BMW"]);
+
+// object 1 + property Year
+// console.log(Car["BMW"].Year);
+
+
+console.log("Question-23 ================================================================ \n");
+// Conditional Tests: Write a series of conditional tests. 
+// Print a statement describing each test and your prediction for the results of each test. Your code should look something like this:
+
+// let car = 'subaru';
+// console.log("Is car == 'subaru'? I predict True.")
+// console.log(car == 'subaru')
+// Look closely at your results, and make sure you understand why each line evaluates to True or False.
+// Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
+
+
+
+console.log("Question-24 ================================================================ \n");
+
+// More Conditional Tests: You don’t have to limit the number of tests you create to 10. If you want to try more comparisons, write more tests. Have at least one True and one False result for each of the following:
+// Tests for equality and inequality with strings
+// Tests using the lower case function
+// Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to
+// Tests using "and" and "or" operators
+// Test whether an item is in a array
+// Test whether an item is not in a array
+
+
+console.log("Tests for equality and inequality with strings \n");
+let str1:string = "StringOne";
+let str2:string = "StringTwo";
+console.log("equality = " + str1==str2 +"\n");
+console.log("inequality = " + str1!==str2 +"\n");
+
+console.log("Tests Equlity using the lower case function \n");
+let str3:string = "TO LOWER CASE";
+let str4:string = "to lower case";
+console.log(str3.toLowerCase() === str4 +"\n");
+
+let num1:number = 7;
+let num2:number = 3;
+
+console.log(num1 == num2);
+console.log(num1 !== num2);
+console.log(num1 > num2);
+console.log(num1 < num2);
+console.log(num1 >= num2);
+console.log(num1 <= num2);
+
+console.log("Tests using and or operators \n");
+let x:number = 5;
+let y:number = 10;
+let z:number = 15;
+
+console.log(x<y && y<z);
+console.log(x<y || y<z);
+console.log(x>y && y<z);
+console.log(x>y || y<z);
+
+console.log("Test whether an item is in a array \n");
+
+let fruits:string[] = ['apple', 'banaba', 'orange', 'grape']
+console.log(fruits.includes('orange'));
+console.log(fruits.includes('kiwi'));
+
+console.log("Test whether an item is not in a array \n");
+console.log(!fruits.includes('orange'));
+console.log(!fruits.includes('kiwi'));
+
+
+console.log("Question-25 ================================================================ \n");
 
 
 
