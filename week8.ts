@@ -400,6 +400,53 @@ console.log(!fruits.includes('kiwi'));
 
 console.log("Question-25 ================================================================ \n");
 
+// Alien Colors #1: Imagine an alien was just shot down in a game. Create a variable called alien_color and assign it a value of 'green', 'yellow', or 'red'.
+// Write an if statement to test whether the alien’s color is green. If it is, print a message that the player just earned 5 points.
+// Write one version of this program that passes the if test and another that fails. (The version that fails will have no output.)
+
+var alien_color:string = "green";
+
+console.log("1st Version of Code \n");
+
+if (alien_color === "green") {
+    console.log("Player has Earned 5 Points  \n");
+}
+else{
+    console.log(" Player Has Earned 10 points \n");
+    }
+// New Version 
+console.log("2nd Version of Code \n");
+
+    if (alien_color === "blue") {
+        console.log("Player has Earned 5 Points  \n");
+    }
+    else{
+        console.log(" Player Has Earned 10 points \n");
+        }
+
+        console.log("Question-26 ================================================================ \n");
+        // Alien Colors #2: Choose a color for an alien as you did in Exercise 25, and write an if-else chain.
+        // If the alien’s color is green, print a statement that the player just earned 5 points for shooting the alien.
+        // • If the alien’s color isn’t green, print a statement that the player just earned 10 points.
+        // • Write one version of this program that runs the if block and another that runs the else block.
+        
+        
+        var alien_color:string = "green";
+        
+        console.log("1st Version of Code \n");
+        
+        if (alien_color === "green") {
+            console.log("Player has Earned 5 Points for shooting Green Alien \n");
+        }
+        else if (alien_color !== "green" ){
+            console.log(" Player Has Earned 10 points for shooting Blue Alien \n");
+            }
+        
+            else{
+                console.log(" Unknown Color \n");
+                }
+
+                
 
 
 // Question-3 ==========================================================================
