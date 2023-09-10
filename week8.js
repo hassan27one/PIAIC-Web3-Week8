@@ -239,5 +239,131 @@ console.log("Question-23 =======================================================
 // Look closely at your results, and make sure you understand why each line evaluates to True or False.
 // Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
 console.log("Question-24 ================================================================ \n");
+// More Conditional Tests: You don’t have to limit the number of tests you create to 10. If you want to try more comparisons, write more tests. Have at least one True and one False result for each of the following:
+// Tests for equality and inequality with strings
+// Tests using the lower case function
+// Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to
+// Tests using "and" and "or" operators
+// Test whether an item is in a array
+// Test whether an item is not in a array
+console.log("Tests for equality and inequality with strings \n");
+let str1 = "StringOne";
+let str2 = "StringTwo";
+console.log("equality = " + str1 == str2 + "\n");
+console.log("inequality = " + str1 !== str2 + "\n");
+console.log("Tests Equlity using the lower case function \n");
+let str3 = "TO LOWER CASE";
+let str4 = "to lower case";
+console.log(str3.toLowerCase() === str4 + "\n");
+let num1 = 7;
+let num2 = 3;
+console.log(num1 == num2);
+console.log(num1 !== num2);
+console.log(num1 > num2);
+console.log(num1 < num2);
+console.log(num1 >= num2);
+console.log(num1 <= num2);
+console.log("Tests using and or operators \n");
+let x = 5;
+let y = 10;
+let z = 15;
+console.log(x < y && y < z);
+console.log(x < y || y < z);
+console.log(x > y && y < z);
+console.log(x > y || y < z);
+console.log("Test whether an item is in a array \n");
+let fruits = ['apple', 'banaba', 'orange', 'grape'];
+console.log(fruits.includes('orange'));
+console.log(fruits.includes('kiwi'));
+console.log("Test whether an item is not in a array \n");
+console.log(!fruits.includes('orange'));
+console.log(!fruits.includes('kiwi'));
+console.log("Question-25 ================================================================ \n");
+// Alien Colors #1: Imagine an alien was just shot down in a game. Create a variable called alien_color and assign it a value of 'green', 'yellow', or 'red'.
+// Write an if statement to test whether the alien’s color is green. If it is, print a message that the player just earned 5 points.
+// Write one version of this program that passes the if test and another that fails. (The version that fails will have no output.)
+var alien_color = "green";
+console.log("1st Version of Code \n");
+if (alien_color === "green") {
+    console.log("Player has Earned 5 Points  \n");
+}
+else {
+    console.log(" Player Has Earned 10 points \n");
+}
+// New Version 
+console.log("2nd Version of Code \n");
+if (alien_color === "blue") {
+    console.log("Player has Earned 5 Points  \n");
+}
+else {
+    console.log(" Player Has Earned 10 points \n");
+}
+console.log("Question-26 ================================================================ \n");
+// Alien Colors #2: Choose a color for an alien as you did in Exercise 25, and write an if-else chain.
+// If the alien’s color is green, print a statement that the player just earned 5 points for shooting the alien.
+// • If the alien’s color isn’t green, print a statement that the player just earned 10 points.
+// • Write one version of this program that runs the if block and another that runs the else block.
+var alien_color = "green";
+console.log("1st Version of Code \n");
+if (alien_color === "green") {
+    console.log("Player has Earned 5 Points for shooting Green Alien \n");
+}
+else if (alien_color !== "green") {
+    console.log(" Player Has Earned 10 points for shooting Blue Alien \n");
+}
+else {
+    console.log(" Unknown Color \n");
+}
+console.log("Question-27 ================================================================ \n");
+// Alien Colors #3: Turn your if-else chain from Exercise 5-4 into an if-else chain.
+// • If the alien is green, print a message that the player earned 5 points.
+// • If the alien is yellow, print a message that the player earned 10 points.
+// • If the alien is red, print a message that the player earned 15 points.
+// • Write three versions of this program, making sure each message is printed for the appropriate color alien.
+// 1st Version -------------
+console.log("1st Version of Code if shoot green Color \n");
+var alien_color = "green";
+if (alien_color === "green") {
+    console.log("Player has Earned 5 Points for shooting Green Alien \n");
+}
+else if (alien_color === "yellow") {
+    console.log(" Player Has Earned 10 points for shooting yellow Alien \n");
+}
+else if (alien_color === "red") {
+    console.log(" Player Has Earned 15 points for shooting Red Alien \n");
+}
+else {
+    console.log(" Unknown Color \n");
+}
+// 2st Version -------------
+console.log("1st Version of Code if shoot yellow Color \n");
+var alien_color = "yellow";
+if (alien_color === "green") {
+    console.log("Player has Earned 5 Points for shooting Green Alien \n");
+}
+else if (alien_color === "yellow") {
+    console.log(" Player Has Earned 10 points for shooting yellow Alien \n");
+}
+else if (alien_color === "red") {
+    console.log(" Player Has Earned 15 points for shooting Red Alien \n");
+}
+else {
+    console.log(" Unknown Color \n");
+}
+// 3st Version -------------
+console.log("3rd Version of Code if shoot Red Color \n");
+var alien_color = "red";
+if (alien_color === "green") {
+    console.log("Player has Earned 5 Points for shooting Green Alien \n");
+}
+else if (alien_color === "yellow") {
+    console.log(" Player Has Earned 10 points for shooting yellow Alien \n");
+}
+else if (alien_color === "red") {
+    console.log(" Player Has Earned 15 points for shooting Red Alien \n");
+}
+else {
+    console.log(" Unknown Color \n");
+}
 // Question-3 ==========================================================================
 // Question-3 ==========================================================================

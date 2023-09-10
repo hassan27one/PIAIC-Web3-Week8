@@ -441,12 +441,76 @@ console.log("2nd Version of Code \n");
         else if (alien_color !== "green" ){
             console.log(" Player Has Earned 10 points for shooting Blue Alien \n");
             }
-        
             else{
                 console.log(" Unknown Color \n");
                 }
 
-                
+console.log("Question-27 ================================================================ \n");
+// Alien Colors #3: Turn your if-else chain from Exercise 5-4 into an if-else chain.
+// • If the alien is green, print a message that the player earned 5 points.
+
+// • If the alien is yellow, print a message that the player earned 10 points.
+
+// • If the alien is red, print a message that the player earned 15 points.
+
+// • Write three versions of this program, making sure each message is printed for the appropriate color alien.
+
+
+// 1st Version -------------
+console.log("1st Version of Code if shoot green Color \n");
+
+var alien_color: string = "green";
+
+if (alien_color === "green") {
+    console.log("Player has Earned 5 Points for shooting Green Alien \n");
+}
+else if (alien_color === "yellow") {
+    console.log(" Player Has Earned 10 points for shooting yellow Alien \n");
+}
+else if (alien_color === "red") {
+    console.log(" Player Has Earned 15 points for shooting Red Alien \n");
+}
+else {
+    console.log(" Unknown Color \n");
+}
+
+
+// 2st Version -------------
+console.log("1st Version of Code if shoot yellow Color \n");
+
+var alien_color: string = "yellow";
+
+if (alien_color === "green") {
+    console.log("Player has Earned 5 Points for shooting Green Alien \n");
+}
+else if (alien_color === "yellow") {
+    console.log(" Player Has Earned 10 points for shooting yellow Alien \n");
+}
+else if (alien_color === "red") {
+    console.log(" Player Has Earned 15 points for shooting Red Alien \n");
+}
+else {
+    console.log(" Unknown Color \n");
+}
+
+// 3st Version -------------
+console.log("3rd Version of Code if shoot Red Color \n");
+
+var alien_color: string = "red";
+
+if (alien_color === "green") {
+    console.log("Player has Earned 5 Points for shooting Green Alien \n");
+}
+else if (alien_color === "yellow") {
+    console.log(" Player Has Earned 10 points for shooting yellow Alien \n");
+}
+else if (alien_color === "red") {
+    console.log(" Player Has Earned 15 points for shooting Red Alien \n");
+}
+else {
+    console.log(" Unknown Color \n");
+}
+
 
 
 // Question-3 ==========================================================================
