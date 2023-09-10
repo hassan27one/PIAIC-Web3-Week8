@@ -529,7 +529,19 @@ else if (age = 65 || age > 65 ) { console.log("Person is OLD \n");   }
 else  { console.log("Wrong Entry \n");   }
 
 
+console.log("Question-29 ================================================================ \n");
+// Favorite Fruit: Make a array of your favorite fruits, and then write a series of independent if statements that check for certain fruits in your array.
+// • Make a array of your three favorite fruits and call it favorite_fruits.
+// • Write five if statements. Each should check whether a certain kind of fruit is in your array. 
+// If the fruit is in your array, the if block should print a statement, such as You really like bananas!
 
+console.log("Favorite Fruit: Make a array of your favorite fruits, and then write a series of independent if statements that check for certain fruits in your array. \n");
+
+var favorite_fruits:string[] = [ 'Apple', 'Banana', 'Orange'];
+
+if (favorite_fruits.includes("Apple") ) { console.log("Apples are very good for Health \n");   }
+if (favorite_fruits.includes("Banana")) { console.log("Banaba is nice \n");   }
+if (favorite_fruits.includes("Orange")) { console.log("Orange is Saur \n");   }
 
 
 
