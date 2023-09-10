@@ -543,6 +543,21 @@ if (favorite_fruits.includes("Apple") ) { console.log("Apples are very good for 
 if (favorite_fruits.includes("Banana")) { console.log("Banaba is nice \n");   }
 if (favorite_fruits.includes("Orange")) { console.log("Orange is Saur \n");   }
 
+console.log("Question-30 ================================================================ \n");
+// Hello Admin: Make an array of five or more usernames, including the name 'admin'. Imagine you are writing code that will print a greeting to each user after they log in to a website. 
+// Loop through the array, and print a greeting to each user:
+// • If the username is 'admin', print a special greeting, such as Hello admin, would you like to see a status report?
+// • Otherwise, print a generic greeting, such as Hello Eric, thank you for logging in again.
+
+
+let usernames:string [] = ['Ali', 'Bilal', 'admin', 'Raza', 'Saif'];
+for (let i = 0; i < usernames.length; i++) 
+{
+    if ( usernames[i] === 'admin') {	console.log("Hello admin, would you like to see a status report?");    }
+	else {  console.log("Hello " + i + ", thank you for logging in again!");  }
+}
+
+
 
 
 // Question-3 ==========================================================================
