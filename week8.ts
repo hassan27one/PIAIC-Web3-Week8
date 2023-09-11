@@ -1,5 +1,5 @@
 // Hassan Farooq  Web-3 PIAIC57456   NTU Faisalabad
-//Week-08  Assignment-08    06-Sep-2023
+//Week-08  Assignment-08    Due Date = 16-Sep-2023
 
 console.log("Question-1 ================================================================");
 // Question-1- Install Node.js, TypeScript and VS Code on your computer.
@@ -614,6 +614,21 @@ for (const number of OrdinalNumbers) {  let ordinal:string;
     else { ordinal = "th"; }
     console.log( number+ordinal );
 }
+
+console.log("Question-34 ================================================================ \n");
+// Pizzas: Think of at least three kinds of your favorite pizza. Store these pizza names in a array, and then use a for loop to print the name of each pizza.
+// • Modify your for loop to print a sentence using the name of the pizza instead of printing just the name of the pizza. For each pizza you should have one line of output containing a simple statement like I like pepperoni pizza.
+// • Add a line at the end of your program, outside the for loop, that states how much you like pizza. The output should consist of three or more lines about the kinds of pizza you like and then an additional sentence, such as I really love pizza!
+
+let pizza_Kind:string[]= [ "VEGETABLE", "CHICKEN", "BEEF", "CHEEZ", "TIKKA"];
+
+// using for Loop-------------------------
+console.log("Pizza List = "+pizza_Kind  +"\n");
+for (let i = 0; i <= pizza_Kind.length; i++) 
+{   
+    console.log("i Like " + pizza_Kind[i] +" Pizza " );    
+}
+console.log("i really like Chicken Pizza and it it is Delicious. \n");
 
 
 
