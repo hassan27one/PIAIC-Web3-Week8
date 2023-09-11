@@ -412,5 +412,75 @@ if (favorite_fruits.includes("Banana")) {
 if (favorite_fruits.includes("Orange")) {
     console.log("Orange is Saur \n");
 }
+console.log("Question-30 ================================================================ \n");
+// Hello Admin: Make an array of five or more usernames, including the name 'admin'. Imagine you are writing code that will print a greeting to each user after they log in to a website. 
+// Loop through the array, and print a greeting to each user:
+// • If the username is 'admin', print a special greeting, such as Hello admin, would you like to see a status report?
+// • Otherwise, print a generic greeting, such as Hello Eric, thank you for logging in again.
+let usernames = ['Ali', 'Bilal', 'admin', 'Raza', 'Saif'];
+for (let i = 0; i < usernames.length; i++) {
+    if (usernames[i] === 'admin') {
+        console.log("Hello admin, would you like to see a status report?");
+    }
+    else {
+        console.log("Hello " + i + ", thank you for logging in again!");
+    }
+}
+console.log("Question-31 ================================================================ \n");
+// No Users: Add an if test to Exercise 28 to make sure the list of users is not empty.
+// • If the list is empty, print the message We need to find some users!
+// • Remove all of the usernames from your array, and make sure the correct message is printed.
+// Checking Usernames: Do the following to create a program that simulates how websites ensure that everyone has a unique username.
+// • Make a list of five or more usernames called current_users.
+// • Make another list of five usernames called new_users. Make sure one or two of the new usernames are also in the current_users list.
+// • Loop through the new_users list to see if each new username has already been used. If it has, print a message that the person will need to enter a new username. If a username has not been used, print a message saying that the username is available.
+// • Make sure your comparison is case insensitive. If 'John' has been used, 'JOHN' should not be accepted.
+// let old_usernames = ['Ali', 'Bilal', 'admin', 'Raza', 'Saif'];
+// let new_users = ['Abid', 'Bilal', 'admin', 'Tasleem', 'Qasim'];
+// // for case sensitive Lowercase all Elements of both Arrays for search  
+// let old_usernamesToLower = old_usernames.map(user => user.toLowerCase());
+// console.log(old_usernamesToLower);
+// let new_usersToLower = new_users.map(user1 => user1.toLowerCase());
+// console.log(new_usersToLower);
+// if ( new_usersToLower.includes(old_usernamesToLower[])) {
+//     console.log(new_usersToLower +" is already Availabale in Old User List");
+// } else {
+//     console.log(new_usersToLower +" New User List is Unique");
+// }
+console.log("Question-33 ================================================================ \n");
+// Ordinal Numbers: Ordinal numbers indicate their position in a array, such as 1st or 2nd. Most ordinal numbers end in th, except 1, 2, and 3.
+// • Store the numbers 1 through 9 in a array.
+// • Loop through the array.
+// • Use an if-else chain inside the loop to print the proper ordinal ending for each number. 
+// Your output should read "1st 2nd 3rd 4th 5th 6th 7th 8th 9th", and each result should be on a separate line.
+const OrdinalNumbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+// using for Loop-------------------------
+// for (let i = 0; i <= OrdinalNumbers.length; i++) 
+// {
+//     if (i === 1) { console.log(i + "st");} 
+//     else if (i === 2) { console.log(i + "nd");}
+//     else if (i === 3) { console.log(i + "rd");}
+//     else  { console.log(i + "th");}
+// }
+// using if-else------------------------
+for (const number of OrdinalNumbers) {
+    let ordinal;
+    if (number === 0) {
+        ordinal = "";
+    }
+    else if (number === 1) {
+        ordinal = "st";
+    }
+    else if (number === 2) {
+        ordinal = "nd";
+    }
+    else if (number === 3) {
+        ordinal = "rd";
+    }
+    else {
+        ordinal = "th";
+    }
+    console.log(number + ordinal);
+}
 // Question-3 ==========================================================================
 // Question-3 ==========================================================================
