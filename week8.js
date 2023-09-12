@@ -514,5 +514,14 @@ function make_shirt(text, size) {
     console.log(text + size);
 }
 make_shirt("Size of the Sihirt is = ", 14);
+console.log("Question-37 ================================================================ \n");
+// Large Shirts: Modify the make_shirt() function so that shirts are large by default with a message that reads I love TypeScript. 
+// Make a large shirt and a medium shirt with the default message, and a shirt of any size with a different message.
+let make_shirt2 = (size = "Medium 14", text = "i Love Typescript") => {
+    console.log(" You have ordered a shirt in " + size, " and Text on the Shirt is = " + text);
+};
+make_shirt2('large');
+make_shirt2();
+make_shirt2('small', '"I am a big brother \n"');
 // Question-3 ==========================================================================
 // Question-3 ==========================================================================
