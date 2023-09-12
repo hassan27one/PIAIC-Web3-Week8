@@ -650,6 +650,15 @@ for (let i = 0; i <= Species.length; i++)
 console.log("we can eat these animals \n");
 console.log("i Like CATTLE animals because we can use them for ride and eat \n");
 
+console.log("Question-36 ================================================================ \n");
+// T-Shirt: Write a function called make_shirt() that accepts a size and the text of a message that should be printed on the shirt. 
+// The function should print a sentence summarizing the size of the shirt and the message printed on it. Call the function.
+
+function make_shirt(text:string,size:number) {
+    console.log(text+size);
+}
+make_shirt("Size of the Sihirt is = ", 14)
+
 
 
 
