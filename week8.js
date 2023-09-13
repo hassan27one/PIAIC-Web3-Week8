@@ -562,5 +562,17 @@ function show_magicians(Magicians) {
     }
 }
 show_magicians(MagicianNames);
+console.log("Question-42 ================================================================ \n");
+// Great Magicians: Start with a copy of your program from Exercise 39. 
+// Write a function called make_great() that modifies the array of magicians by adding the phrase the Great to each magician’s name. 
+// Call show_magicians() to see that the list has actually been modified.
+// from Q-39-----------
+function make_great(Magicians) {
+    const great_magicians = MagicianNames.map(items => "the Great" + items);
+    return great_magicians;
+}
+const great_magicians_names = make_great(MagicianNames);
+console.log("\n All Magicians = " + show_magicians(MagicianNames));
+console.log("\n Great Magicians = " + show_magicians(great_magicians_names));
 // Question-3 ==========================================================================
 // Question-3 ==========================================================================
