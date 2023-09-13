@@ -544,7 +544,7 @@ let city_country = (city, country) => {
 console.log(city_country('Lahore', 'Pakistan'));
 console.log(city_country('Dhaka ', 'Bangladash'));
 console.log(city_country('Delhi ', 'India'));
-console.log(city_country('paris', 'France'));
+console.log(city_country('paris', 'France \n'));
 console.log("Question-40 ================================================================ \n");
 // Album: Write a function called make_album() that builds a Object describing a music album. 
 // The function should take in an artist name and an album title, and it should return a Object containing these two pieces of information. 
@@ -552,5 +552,15 @@ console.log("Question-40 =======================================================
 // Print each return value to show that Objects are storing the album information correctly. 
 // Add an optional parameter to make_album() that allows you to store the number of tracks on an album. If the calling line includes a value for the number of tracks, add that value to the album’s Object. 
 // Make at least one new function call that includes the number of tracks on an album.
+console.log("Question-41 ================================================================ \n");
+// Magicians: Make a array of magician’s names. 
+// Pass the array to a function called show_magicians(), which prints the name of each magician in the array.
+const MagicianNames = ['Amazing Ace', 'Mystic Max', 'Illusionist Ivan', 'Preston', 'Magic Man Fred'];
+function show_magicians(Magicians) {
+    for (const items of Magicians) {
+        console.log(items);
+    }
+}
+show_magicians(MagicianNames);
 // Question-3 ==========================================================================
 // Question-3 ==========================================================================

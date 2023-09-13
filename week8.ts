@@ -710,6 +710,20 @@ console.log("Question-40 =======================================================
 // Make at least one new function call that includes the number of tracks on an album.
 
 
+console.log("Question-41 ================================================================ \n");
+// Magicians: Make a array of magician’s names. 
+// Pass the array to a function called show_magicians(), which prints the name of each magician in the array.
+
+const MagicianNames:string[] = ['Amazing Ace', 'Mystic Max', 'Illusionist Ivan', 'Preston', 'Magic Man Fred' ];
+
+function show_magicians(Magicians:string[]):void {
+    for (const items of Magicians) {
+        console.log(items);   
+    }
+}    
+show_magicians(MagicianNames);
+
+
 
 // Question-3 ==========================================================================
 
