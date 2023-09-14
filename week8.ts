@@ -746,3 +746,27 @@ console.log("Question-43 =======================================================
 // Call show_magicians() with each array to show that you have one array of the original names and one array with the Great added to each magician’s name.
 
 
+console.log("Question-44 ================================================================ \n");
+// Sandwiches: Write a function that accepts a array of items a person wants on a sandwich. 
+// The function should have one parameter that collects as many items as the function call provides, 
+// and it should print a summary of the sandwich that is being ordered. 
+// Call the function three times, using a different number of arguments each time.
+
+
+function making_sandwich(...items:string[]):void{
+    console.log("Sandwitch Summary : ");
+    if (items.length === 0) {
+        console.log("You Ordered an Empty Sandwitch. Add some items :  "); 
+    }
+    else{
+        items.forEach((items, i) => {
+            console.log( "${i+1} ${items}"  ); 
+        } );
+    }
+    console.log("\n"); 
+}
+making_sandwich("lettuce", "onion", "tomato"," honey mustard");
+making_sandwich('burger', 'ketchup', 'lettuce');
+making_sandwich('subway', 'lettuce', 'onion', 'tomato  \n');
+
+
